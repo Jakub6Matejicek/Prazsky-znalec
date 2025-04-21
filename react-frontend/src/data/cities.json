@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Praha",
+    "startLat": 50.0455,
+    "endLat": 50.1055,
+    "startLng": 14.4078,
+    "endLng": 14.4678
+  },
+  {
+    "name": "Brno",
+    "startLat": 49.1651,
+    "endLat": 49.2251,
+    "startLng": 16.5768,
+    "endLng": 16.6368
+  },
+  {
+    "name": "Ostrava",
+    "startLat": 49.7909,
+    "endLat": 49.8509,
+    "startLng": 18.2325,
+    "endLng": 18.2925
+  },
+  {
+    "name": "Plzeň",
+    "startLat": 49.7175,
+    "endLat": 49.7775,
+    "startLng": 13.3476,
+    "endLng": 13.4076
+  },
+  {
+    "name": "Liberec",
+    "startLat": 50.7401,
+    "endLat": 50.8001,
+    "startLng": 15.0280,
+    "endLng": 15.0880
+  },
+  {
+    "name": "Olomouc",
+    "startLat": 49.5638,
+    "endLat": 49.6238,
+    "startLng": 17.2209,
+    "endLng": 17.2809
+  },
+  {
+    "name": "České Budějovice",
+    "startLat": 48.9447,
+    "endLat": 49.0047,
+    "startLng": 14.4441,
+    "endLng": 14.5041
+  },
+  {
+    "name": "Hradec Králové",
+    "startLat": 50.1792,
+    "endLat": 50.2392,
+    "startLng": 15.8027,
+    "endLng": 15.8627
+  },
+  {
+    "name": "Pardubice",
+    "startLat": 50.0072,
+    "endLat": 50.0672,
+    "startLng": 15.7512,
+    "endLng": 15.8112
+  },
+  {
+    "name": "Zlín",
+    "startLat": 49.1945,
+    "endLat": 49.2545,
+    "startLng": 17.6407,
+    "endLng": 17.7007
+  },
+  {
+    "name": "Ústí nad Labem",
+    "startLat": 50.6294,
+    "endLat": 50.6894,
+    "startLng": 14.0116,
+    "endLng": 14.0716
+  },
+  {
+    "name": "Karlovy Vary",
+    "startLat": 50.2020,
+    "endLat": 50.2620,
+    "startLng": 12.8419,
+    "endLng": 12.9019
+  },
+  {
+    "name": "Jihlava",
+    "startLat": 49.3666,
+    "endLat": 49.4266,
+    "startLng": 15.5605,
+    "endLng": 15.6205
+  }
+]

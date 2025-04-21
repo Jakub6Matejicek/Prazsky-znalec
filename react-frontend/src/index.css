@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  outline: none;
+  height: 30px;
+  /*  slider progress trick  */
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+/* Track: webkit browsers */
+input[type="range"]::-webkit-slider-runnable-track {
+  background: rgb(2 6 23);
+  height: 40px;
+  border-radius: 16px;
+}
+
+/* Track: Mozilla Firefox */
+input[type="range"]::-moz-range-track {
+  background: rgb(2 6 23);
+  border-radius: 16px;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 0px;
+  width: 0px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid rgb(0, 31, 167);
+  /*  slider progress trick  */
+  box-shadow: -407px 0 0 400px rgb(0, 31, 167);
+}
+
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 0px;
+  width: 0px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid purple;
+  /*  slider progress trick  */
+  box-shadow: -407px 0 0 400px purple;
+}
+
